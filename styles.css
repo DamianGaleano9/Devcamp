@@ -1,3 +1,18 @@
-div {
-    color: blue;
+/*Common styles*/
+
+body {
+    margin: 0px;
+}
+
+/*common nav styles*/
+
+.navigation-wrapper {
+    height: 190px;
+    background-color: #11122B;
+    color: #cbcbcb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px 60px 100px;
+
 }
