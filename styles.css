@@ -10,9 +10,39 @@ body {
     height: 190px;
     background-color: #11122B;
     color: #cbcbcb;
+    /* Flexbox container*/
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 60px 100px 60px 100px;
+    padding: 60px 100px;
+}
+
+.left-column {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 15px;
+}
+
+.icon i {
+    font-size: 2em;
+}
+
+.contac-hours-wrapper {
+    display: flex;
+    text-align: justify;
+}
+
+.address-wrapper {
 
 }
+
+
+.left-column > .contact-hours-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
