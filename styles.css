@@ -32,19 +32,17 @@ body {
     font-size: 2em;
 }
 
+.navigation-wrapper > .contact-hours-wrapper {
+    display: flex;
+    text-align: justify;
+}
 .navigation-wrapper > .left-column > .contact-hours-wrapper {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 10px;
 }
-
 .navigation-wrapper > .contact-hours-wrapper > .hours {
     font-family: 'Ubuntu Condensed', sans-serif;
-}
-
-.navigation-wrapper > .contact-hours-wrapper {
-    display: flex;
-    text-align: justify;
 }
 
 .links-wrapper > .nav-link a {
@@ -52,11 +50,10 @@ body {
     color:  white;
 }
 
-.center-column > .links-wrapper > .banner-image img {
+.navigation-wrapper > .right-column >.address-wrapper {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+.navigation-wrapper > .center-column > .banner-image img {
     width: 216px;
     height: 100%;
-}
-
-.right-column >.address-wrapper {
-    font-family: 'Ubuntu Condensed', sans-serif;
 }
