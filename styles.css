@@ -19,46 +19,44 @@ body {
     padding: 60px 100px;
 }
 
-.left-column {
+.navigation-wrapper > .left-column {
     display: flex;
     align-items: center;
 }
 
-.icon {
+.navigation-wrapper > .left-column > .icon {
     margin-right: 15px;
 }
 
-.icon i {
+.navigation-wrapper > .left-column > .icon i {
     font-size: 2em;
 }
 
-.contact-hours-wrapper {
-    display: flex;
-    text-align: justify;
-}
-
-.contact-hours-wrapper > .hours {
-    font-family: 'Ubuntu Condensed', sans-serif;
-}
-
-.address-wrapper {
-    font-family: 'Ubuntu Condensed', sans-serif;
-}
-
-
-.left-column > .contact-hours-wrapper {
+.navigation-wrapper > .left-column > .contact-hours-wrapper {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 10px;
 }
 
-.nav-link a {
+.navigation-wrapper > .contact-hours-wrapper > .hours {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.navigation-wrapper > .contact-hours-wrapper {
+    display: flex;
+    text-align: justify;
+}
+
+.links-wrapper > .nav-link a {
     font-family: 'Ubuntu Condensed', sans-serif;
     color:  white;
 }
 
-
-.banner-image img {
+.center-column > .links-wrapper > .banner-image img {
     width: 216px;
     height: 100%;
+}
+
+.right-column >.address-wrapper {
+    font-family: 'Ubuntu Condensed', sans-serif;
 }
