@@ -1,10 +1,4 @@
-body {
-    margin: 0px;
-    font-family: 'Roboto', sans-serif;
-
-}
-
-/*Common styles*/
+/*Nav styles*/
 .navigation-wrapper {
     height: 190px;
     background-color: #11122B;
@@ -40,8 +34,11 @@ body {
     grid-template-columns: 1fr;
     grid-gap: 10px;
 }
-.navigation-wrapper > .contact-hours-wrapper > .hours {
+.navigation-wrapper > .left-column > .contact-hours-wrapper > .hours {
     font-family: 'Ubuntu Condensed', sans-serif;
+    color: #858585;
+    font-size: 0.8em;
+
 }
 
 /* Center columns styles */
@@ -66,7 +63,7 @@ body {
 .navigation-wrapper > .center-column {
     display: grid;
     grid-template-columns: 1fr;    
-    grid-gap: 42; 
+    grid-gap: 42px; 
     width: 500px;   
 }
 .navigation-wrapper > .center-column > .banner-image {
@@ -119,3 +116,17 @@ body {
 .navigation-wrapper > .right-column > .contact-icon a:hover {
     color: #cea135;
 }
+
+
+
+.sidebar-wrapper {
+    text-align: right;
+  }
+  
+  .subtext {
+    color: #0597e6;
+  }
+  
+  .header {
+    font-size: 135px;
+  }
