@@ -38,7 +38,7 @@
     font-family: 'Ubuntu Condensed', sans-serif;
     color: #858585;
     font-size: 0.8em;
-
+    back
 }
 
 /* Center columns styles */
@@ -118,15 +118,3 @@
 }
 
 
-
-.sidebar-wrapper {
-    text-align: right;
-  }
-  
-  .subtext {
-    color: #0597e6;
-  }
-  
-  .header {
-    font-size: 135px;
-  }
