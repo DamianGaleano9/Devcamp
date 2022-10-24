@@ -38,7 +38,7 @@
     justify-content: center;
     align-items: center;
     font-family: "Ubuntu Condensed", "sans-serif";
-
+    box-shadow: inset 0px -26px 79px -8px rgba(0,0,0,0.58);
 }
 
 .features-section > .columns-wrapper {
