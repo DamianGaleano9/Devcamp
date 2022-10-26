@@ -141,3 +141,47 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 1px;
     line-height: 30px;
 }
+
+
+/* Squares grid styles*/
+
+.squares-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.squares-wrapper > .squares {
+    width: 1000px;
+}   
+
+.squares-wrapper > .squares > .square {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -4px;
+}
+
+.square > .img-wrapper img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.square > .square-text-wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 42px;
+}
+
+.square > .square-text-wrapper h1{
+    color: #cea135;
+}
+
+
+/* Spacers helpers */
+
+.space60 {
+    height: 60px;
+    width: 100%;
+}
