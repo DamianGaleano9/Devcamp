@@ -25,6 +25,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 100%;
     /* filter: brightness(50%); */
     opacity: 0.5;
+    margin-top: 30px;
 }
 
 .footer > .footer-phone-hours span {
@@ -64,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #cea135;
 }
 
-.footer >  .copyright-wrapper {
+.footer > .copyright-wrapper {
     margin-bottom: 42px;
     color: #858585;
     font-size: 0.7em;
