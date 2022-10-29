@@ -20,8 +20,7 @@
         <link rel="stylesheet" href="styles/pages-container.css">
         <link rel="stylesheet" href="styles/helpers.css">
         <link rel="stylesheet" href="styles/contact.css">
-
-
+        <link rel="stylesheet" href="styles/form.css">
 
     </head>
     <body>
@@ -86,17 +85,20 @@
 
             <div class="form">
                 <div class="form-group">
-                    Name
+                    <input type="text" id="fulName" placeholder="Your Name">
+                    <Label for="fullname">Your Name</Label>
+                </div>
+
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Emai">
+                    <Label for="email">Your Email</Label>
                 </div>
                 
                 <div class="form-group">
-                    Email
+                    <textarea name="message" id="message" placeholder="Mesagge"></textarea>
+                    <Label for="email">Your Message</Label>
                 </div>
-                
-                <div class="form-group">
-                    Message
-                </div>
-                
+
                 <div class="centered-btn-wrapper">
                     <button type="submit">Send</button>
                 </div>
@@ -117,7 +119,7 @@
         </span>
 
         <span class="hours">
-            10 am - Midnight
+            10 am - Midnight    
         </span>
     </div>
 
