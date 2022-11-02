@@ -17,7 +17,7 @@
     background-repeat: no-repeat;
     background-size: 100%;
     transform: skewY(-6deg);
-    transform-origin: left;
+    transform-origin: top left;
     filter: brightness(50%);
 }
 
@@ -42,7 +42,7 @@
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
     width: 175px;
-    height: 100px;
+    padding: 10px;
     text-align: center;
 }
 

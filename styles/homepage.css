@@ -4,6 +4,7 @@
     padding: 100px;
     height: 300px;
     background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;   
     background-size: cover;
 }
@@ -17,8 +18,8 @@
 }
 
 .hero-section > .bottom-heading {
-    background-color: #CEA135;
-    color:  #e0e0e0;
+    background-color: #cea135;
+    color:  #11122B;
     padding: 1px 20px;
     margin-top: 15px;
     width: 107px;
@@ -36,7 +37,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Ubuntu Condensed", "sans-serif";
+    font-family: "Ubuntu Condensed", sans-serif;
     box-shadow: inset 0px -26px 79px -8px rgba(0,0,0,0.58);
 }
 

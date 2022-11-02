@@ -10,7 +10,7 @@
     width: 100%;
 }
 
-.anchor-links {
+.anchor-link {
     text-decoration: none;
 }
 
@@ -18,7 +18,7 @@
     outline: none;
 }
 
-.anchor-links h1::after {
+.anchor-link h1::after {
     font-family: "Font Awesome 5 Free";
     content: "  \f0c1";
     font-weight: 900;

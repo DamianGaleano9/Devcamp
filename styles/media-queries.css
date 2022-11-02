@@ -7,7 +7,7 @@
     .navigation-wrapper > .left-column {
         order: 2;
         margin-top: 20px;
-        margin-bottom: 20px
+        margin-bottom: 20px;
     }
 
     .navigation-wrapper > .center-column {
@@ -54,7 +54,7 @@
     }
 
     .skewed-header > .header-bg {
-        background-size: 550px;
+        background-size: cover;
     }
 
     .page-container {
@@ -71,12 +71,12 @@
         grid-template-columns: 1fr !important;
     }
 
-    .square > .img-wrapper {
-        order: 2;
-    }
-
     .square > .square-text-wrapper {
         order: 1;
+    }
+
+    .square > .img-wrapper {
+        order: 2;
     }
 
     .contact-grid-wrapper {
